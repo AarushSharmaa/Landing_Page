@@ -1,0 +1,48 @@
+/* applicable to all html elements */
+
+* {
+    background-color: #5CDB95;
+    color: floralwhite;
+    text-align: center;
+}
+
+
+/* main frame of the page */
+
+.container {
+    margin: 1rem auto;
+}
+
+
+/* contains heading, image and about me*/
+
+.introduction-container {
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.about-me {
+    font-style: italic;
+    font-weight: bolder;
+    color: #05386b;
+    text-align: center;
+}
+
+
+/* contains links, active-link, anchor */
+
+.links {
+    list-style: none;
+}
+
+.active-link {
+    text-decoration: none;
+    margin: 1rem 2rem;
+    padding: 1%;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #05386b;
+    font-weight: bolder;
+}

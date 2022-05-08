@@ -1,48 +1,58 @@
-/* applicable to all html elements */
-
-* {
-    background-color: #5CDB95;
-    color: floralwhite;
-    text-align: center;
-}
-
-
-/* main frame of the page */
-
-.container {
-    margin: 1rem auto;
-}
-
-
-/* contains heading, image and about me*/
-
-.introduction-container {
-    text-align: center;
-    border-radius: 0.5rem;
-}
-
-.about-me {
-    font-style: italic;
-    font-weight: bolder;
-    color: #05386b;
-    text-align: center;
-}
-
-
-/* contains links, active-link, anchor */
-
-.links {
-    list-style: none;
-}
-
-.active-link {
-    text-decoration: none;
-    margin: 1rem 2rem;
-    padding: 1%;
-}
-
-.anchor {
-    text-decoration: none;
-    color: #05386b;
-    font-weight: bolder;
-}
+    /* applicable to all html elements */
+    
+    * {
+        background-color: #5CDB95;
+        color: floralwhite;
+        text-align: center;
+        background-image: url(https://images.unsplash.com/photo-1528459105426-b9548367069b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=964&q=80);
+    }
+    /* main frame of the page */
+    
+    .container {
+        margin: 1rem auto;
+    }
+    /* contains heading, image and about me*/
+    
+    .introduction-container {
+        text-align: center;
+        border-radius: 0.5rem;
+    }
+    
+    .about-me {
+        font-style: italic;
+        font-weight: bolder;
+        color: wheat;
+        margin: 2rem;
+    }
+    /* contains links, active-link, anchor */
+    
+    .links {
+        list-style: none;
+    }
+    
+    .active-link {
+        text-decoration: none;
+        margin: 1rem 2rem;
+        padding: 1%;
+        display: inline-block;
+    }
+    
+    .anchor {
+        text-decoration: none;
+        color: wheat;
+        font-weight: bolder;
+    }
+    /* adding the effect on the links */
+    
+    a {
+        box-shadow: inset 0 0 0 0 wheat;
+        color: whitesmoke;
+        margin: 0 -.25rem;
+        padding: 0 .25rem;
+        transition: color .5s ease-in-out, box-shadow .3s ease-in-out;
+    }
+    
+    a:hover {
+        box-shadow: inset 100px 0 0 0 green;
+        color: white;
+    }

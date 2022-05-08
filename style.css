@@ -4,7 +4,7 @@
         background-color: #5CDB95;
         color: floralwhite;
         text-align: center;
-        background-image: url(https://images.unsplash.com/photo-1528459105426-b9548367069b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=964&q=80);
+        background-image: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
     }
     /* main frame of the page */
     
@@ -18,16 +18,24 @@
         border-radius: 0.5rem;
     }
     
+    .heading {
+        color: black;
+    }
+    
     .about-me {
         font-style: italic;
-        font-weight: bolder;
-        color: wheat;
+        font-weight: 900;
+        color: grey;
         margin: 2rem;
     }
     /* contains links, active-link, anchor */
     
     .links {
         list-style: none;
+    }
+    
+    .links-heading {
+        color: black;
     }
     
     .active-link {
@@ -39,7 +47,7 @@
     
     .anchor {
         text-decoration: none;
-        color: wheat;
+        color: grey;
         font-weight: bolder;
     }
     /* adding the effect on the links */
